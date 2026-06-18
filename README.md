@@ -1,4 +1,3 @@
-# Prompts
 # 🧠 AI Prompts للمشاريع البرمجية — OpenCode Edition
 
 > مطور محترف بخبرة 30 سنة | Clean Code | Reusable | MD-Driven Development
@@ -82,7 +81,17 @@ Generate the exact folder structure as empty files/folders with a brief comment 
 - Be explicit, not implicit — no vague descriptions
 - Use tables where structure helps clarity
 - Keep everything DRY — if something is defined once, reference it, don't repeat
-- Flag any ambiguity in requirements as [⚠️ NEEDS CLARIFICATION: ...]
+
+### 🛑 CLARIFICATION BEFORE PROCEEDING
+Before doing anything else, go through the PROJECT IDEA and CORE REQUIREMENTS above.
+If you find ANY ambiguity, missing detail, or decision point that would affect the tech stack or planning — **STOP** and ask the user interactively using OpenCode's interactive input feature.
+
+Rules for asking:
+- Ask ALL your questions in a single interactive session — do not ask one at a time across multiple stops
+- Group questions by topic (e.g. "About Auth:", "About Data:", "About Scale:")
+- For each question, offer numbered options where possible so the user can answer quickly (e.g. "1) JWT  2) Sessions  3) OAuth only")
+- After the user answers, confirm your understanding in one short summary line per question, then proceed
+- Only proceed to planning AFTER all ambiguities are resolved — never assume silently
 ```
 
 ---
