@@ -78,9 +78,7 @@ If information is missing:
 
 Output ONLY:
 
-## Clarification Questions
-
-<Question List>
+opencode active MCQ.
 
 Wait for answers.
 ```
